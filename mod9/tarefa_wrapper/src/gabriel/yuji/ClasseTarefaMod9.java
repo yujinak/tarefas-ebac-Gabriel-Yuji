@@ -12,7 +12,7 @@ public class ClasseTarefaMod9 {
 		System.out.println(n2);
 		
 		// Boxing (Wrapper)
-		Integer n3 = 100;
+		Integer n3 = Integer.valueOf(n1);
 		System.out.println(n3);
 
 	}

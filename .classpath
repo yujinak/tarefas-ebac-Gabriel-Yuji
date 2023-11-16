@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="mod5/PrimeiroProjeto/src"/>
+	<classpathentry kind="src" path="mod7/tarefa_classes/TarefaModulo7/src"/>
+	<classpathentry kind="src" path="mod8/tarefa_calculo_media/src"/>
+	<classpathentry kind="src" path="mod9/src"/>
+	<classpathentry kind="output" path="mod5/PrimeiroProjeto/bin"/>
+</classpath>
