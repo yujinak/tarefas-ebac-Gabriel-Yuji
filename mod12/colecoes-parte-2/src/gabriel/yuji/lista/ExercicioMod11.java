@@ -13,9 +13,6 @@ public class ExercicioMod11 {
         List<Pessoa> feminino = new ArrayList<>();
         List<Pessoa> masculino = new ArrayList<>();
 
-
-
-
         for(int i=0;i<=10; i++){
             Pessoa pessoa = new Pessoa("", "");
             String nome = pessoa.getNome();
@@ -44,10 +41,10 @@ public class ExercicioMod11 {
             System.out.println("Deseja cadastrar outra pessoa? Digite qualquer tecla para continuar ou 'não' para parar.");
             String resposta = reader.next();
             if(resposta.equalsIgnoreCase("Não") || resposta.equalsIgnoreCase("n") || resposta.equalsIgnoreCase("nao")) break;
-
+            reader.close();
         }
         System.out.println("Cadastro de pessoas finalizado. Foram cadastradas " + feminino.size() + masculino.size() + " pessoas ao todo.");
-        System.out.println("O grupo Femenino contém " + feminino.size() + " pessoas, sendo elas: " + feminino );
+        System.out.println("O grupo Feminino contém " + feminino.size() + " pessoas, sendo elas: " + feminino );
         System.out.println("O grupo Masculino contém " + masculino.size() + " pessoas, sendo elas: " + masculino );
 
     }
